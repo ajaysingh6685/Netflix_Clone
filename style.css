@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.mainPart{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("./IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    width: 100vw;
+    height: 100vh;
+
+}
+.navclass{
+   width: 100%;
+   height: 12vh;
+   display: flex;
+   justify-content: space-around;
+   margin-right: 20px;
+   text-decoration: none;
+   color: #fff;
+   font-weight: bold;
+}
+.logo{
+    height: 123%;
+    width: 13%;
+}
+nav .langu{
+    
+    height: 28px;
+    width: 90px;
+    border-radius: 4px;
+    background: transparent;
+    color: #fff;
+    outline: none;
+
+}
+nav button{
+    margin-top: 28px;
+    padding: 7px 20px;
+   
+    
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: #db0001;
+
+}
+.section1{
+   position: absolute;
+   top: 15%;
+   left: 50%;
+   transform: translate(-50%);
+   text-align: center;
+   margin-top: 100px;
+
+
+
+}
+.section1 h1{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+  
+
+}
+.section1 p{
+    font-weight: 400;
+    margin-bottom: 10px
+}
+
+.email-signup{
+background-color: #fff;
+border-radius: 4px;
+display: flex;
+align-items: center;
+margin-top: 30px;
+overflow: hidden;
+  
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    margin-left: 20px;
+    outline: 0;
+   
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+.emailbutton{
+    padding: 7px;
+    background-color: #e50914;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    border: none;
+}
+.heavytext{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.sectionPart{
+    border-top: 4px solid #333;
+    padding: 50px 12%;
+    font-size: 22px;
+    
+    
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.textPart{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.imagepart{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.sectionImage{
+   display:  block;
+   width: 90%;
+   margin: auto;
+}
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.accordian{
+    margin: 60px auto;
+    width:  100%;
+    max-width: 750px;
+}
+.accordian li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+}
+.accordian li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: tranform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordian .content{
+    background:#303030 ;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+}
+.accordian input[type="radio"]:checked+label+.content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordian input[type="radio"]:checked+label::after{
+    transform: rotate(135deg);
+}
+.faq.email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.faq small{
+    font-size: 13px;
+}
+/* Footer */
+.footer{
+    background-color: black;
+    padding: 50px 15% 10px;
+    border-top: 4px solid #333;
+    color: #777;
+   
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 30px;
+    flex-direction: row;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .language-btn{
+  
+     
+    height: 28px;
+    width: 90px;
+    border-radius: 4px;
+    background: transparent;
+    color: #fff;
+    outline: none;
+
+}
+
+.Copyright-txt{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
